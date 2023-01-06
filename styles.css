@@ -1,0 +1,174 @@
+#title{
+    background-color: #e83852;
+    padding: 0% 15%;
+}
+
+.title-heading{
+    padding:8%;
+}
+
+head{
+   
+}
+
+body{
+    font-family: mostserrat;
+}
+
+p{
+   color: #8f8f8f;
+   font-size: 10px;
+}
+.navbar-brand{
+    padding-left: 5%;
+    font-family: ubuntu;
+    font-size: 2.5rem;
+}
+
+.navbar{
+}
+
+.nav-item{
+   
+}
+
+.nav-link{
+
+}
+
+.iphone6{  
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+/* IDENTIFIERS */
+
+#features{
+    /* also padding :3% 15% */
+    position: relative;
+    background-color: white;
+    padding: 3% 11%;
+    color: #ef8172;
+}
+
+
+.features{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 3%;
+    text-align: center;
+}  
+
+h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.25;
+    
+    padding-bottom: 20px;
+}
+
+h2{
+    color:white;
+    font-family: montserrat;
+    font-weight: bold;
+}
+
+h3{
+   color: black;
+}
+
+h4{ 
+    padding: 4% 6%;
+    color: white;
+    font-family: 'montserrat';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.icon:hover{
+    color: #e83823;
+}
+
+#testimonials{
+    padding: 20px 50px 20px 50px;
+    color: #fff;
+    text-align: center;
+    background-color: #ef8172;
+
+}
+
+.testimonial-img{
+    position: absolute;
+    width: 10%;
+    left: 200px;
+    border-radius: 200px;
+}
+
+#press{
+    padding:3%;
+    text-align: center;
+    background-color: #ef8172;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 20px;
+}
+
+em{
+    position: relative;
+    top: 120px;
+    right: 50px;
+}
+.carousel-inner{
+    padding: 15% 15%;
+}
+.testimonial-img{
+    margin: 20px;
+    width: 15%;
+    border-radius: 200px;
+}
+#pricing{
+    padding: 20px;
+    background-color: white;
+}
+.coloumn-price{
+    text-align: center;
+    padding: 4% 3%;
+}
+
+@media (max-width: 1028px)
+{
+    #title{
+        text-align: center;
+    }
+    .iphone6{
+        position: static;
+        transform: rotate(0deg);
+    }
+}
+
+.cta{
+    color: black;
+    line-height: 7;
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 10% 20%;
+}
+
+#footer{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+.footer-icon{
+    padding: 8% 1% 2% 1%;
+}
+
+.footer-para{
+   font-family: 'montserrat';
+   font-size: 15px;
+}
